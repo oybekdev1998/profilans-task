@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+## Сокращатель 
+***
+###  Links
+***
+* `Repository` [https://github.com/oybekdev1998/profilans-task](https://github.com/oybekdev1998/profilans-task)
+* `Project`[https://star-wars-application.vercel.app/](https://star-wars-application.vercel.app/)
+* `oybekdev1998`[https://github.com/oybekdev1998](https://github.com/oybekdev1998)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+***
+### 🐶 Available Scripts and Commands
+```
+ # Install
+  npm i                # install dependencies
+```
+```
+# General
+npm run start            # run app in the development mode
+```
+```
+#Deploy (part of "deploy" script)
+npm run build            # builds the app for production
+```
+---
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🐼 Рассмотренные темы
+#### React.js
+* Разворачивание приложения с `create-react-app`
+* Состояние компонента (хук `useState`)
+* Жизненный цикл компонента (хук `useEffect`)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Redux-toolkit
+* Базовая структура react-redux-приложения
+* Хуки `useDispatch`, `useSelector`
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### JavaScript
+* Методы работы с массивами: `map`, `filter`, `forEach`
+* Тернарные операторы
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+#### Вёрстка
+ 
+* SCSS Flexbox
+* Adaptive page
+***
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### NPM
+```
+npm i --save  react react-dom react-redux  redux-toolkit redux-devtools-extension 
+```
+![image](https://user-images.githubusercontent.com/83628117/178228691-f8c1794e-6f39-40a6-ac89-103a7ba5d3e9.png)
+![image](https://user-images.githubusercontent.com/83628117/178229240-9e73cb06-f15b-4a60-aa36-1c4980d6aa3f.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
