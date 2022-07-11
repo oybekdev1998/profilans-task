@@ -1,9 +1,11 @@
 ## Сокращатель 
-***
+```
+К сожалению, это не удалось сделать в GraphQl и WebSocket. Мне не хватало знаний об этой технологии для выполнения этой задачи.
+```
 ###  Links
 ***
 * `Repository` [https://github.com/oybekdev1998/profilans-task](https://github.com/oybekdev1998/profilans-task)
-* `Project`[https://star-wars-application.vercel.app/](https://star-wars-application.vercel.app/)
+* `Project`[https://mytask-phi.vercel.app/](https://mytask-phi.vercel.app/)
 * `oybekdev1998`[https://github.com/oybekdev1998](https://github.com/oybekdev1998)
 
 ***
