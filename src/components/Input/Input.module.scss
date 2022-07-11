@@ -1,0 +1,71 @@
+// Vars
+$borderRadius: 5px;
+$padding: 5px;
+
+// InputLink
+.inputLink {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 450px;
+  border-radius: $borderRadius*2;
+  margin: 20px;
+  padding: $padding*3 $padding*4;
+  background-color: rgb(238, 226, 226);
+}
+
+// Input Link
+
+.inputLink__title {
+  font-size: 18px;
+  font-weight: 400;
+}
+// Input
+.input {
+  width: 250px;
+  padding: 7px $padding*3;
+  border: none;
+  border-radius: $borderRadius;
+  margin-right: 10px;
+  outline: none;
+}
+// Button
+.button {
+  padding: $padding $padding*5;
+  border: 2px solid rgb(170, 156, 156);
+  border-radius: $borderRadius;
+  color: #000;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+// Button hover
+.button:hover {
+  background-color: rgb(170, 156, 156);
+  color: #fff;
+}
+// Error
+.error {
+  display: inline;
+  padding-top: $padding*2;
+  font-size: 14px;
+  color: red;
+}
+
+// Adaptive screen
+
+@media screen and (max-width:485px){
+  .inputLink {
+    width: 100%;
+    padding: $padding;
+    margin: 10px auto;
+  }
+  .input {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 5px 0px;
+    margin-bottom: 10px;
+  }
+  .button {
+    width: 100%;
+  }
+}

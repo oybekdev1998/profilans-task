@@ -1,0 +1,71 @@
+// Vars
+$padding: 5px;
+$margin: 5px;
+
+// Container
+.container {
+  box-sizing: border-box;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin: $margin*4;
+  box-sizing: border-box;
+}
+// List
+.list {
+  padding: 0px;
+}
+
+// Link Title
+
+.linkTitle {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+// List Item 
+
+.list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $padding $padding*2;
+  border-radius: 5px;
+  margin-bottom: $margin*2;
+}
+
+.list__item:nth-child(odd) {
+  background-color: rgb(238, 226, 226);
+  border: 1px solid rgb(170, 156, 156);
+}
+
+// Counter
+.list__item_usedCount {
+  background-color: rgb(158, 158, 228);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+// Adaptive screen
+
+@media screen and (max-width:485px){
+  .container {
+    width: 100%;
+    margin: 5px auto;
+  }
+  .linkTitle {
+    font-size: 16px;
+    margin: 5px;
+  }
+
+  .list__item_usedCount {
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+  }
+}

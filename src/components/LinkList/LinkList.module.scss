@@ -1,0 +1,41 @@
+// Container
+.container {
+  box-sizing: border-box;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  box-sizing: border-box;
+}
+// List
+.list {
+  padding: 0px;
+}
+
+// Link Title
+
+.linkTitle {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+// Adaptive screen
+
+@media screen and (max-width:485px) {
+  .container {
+    width: 100%;
+    margin: 5px auto;
+  }
+  .list {
+    
+    margin: 5px auto;
+  }
+  .linkTitle {
+    width: 100%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+}
+
+
